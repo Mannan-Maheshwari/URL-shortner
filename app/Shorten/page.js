@@ -52,7 +52,7 @@ const Shorten = () => {
             onChange={e => {setShortUrl(e.target.value)}} />
             <button onClick={generate} className='bg-blue-700 text-white font-semibold px-4 py-2 rounded-lg m-5 hover:bg-blue-300 transition duration-300'>GENERATE</button>
         {generated && <>  
-            <div className='bg-blue-600 p-5 w-100 rounded-lg flex flex-col justify-items-start'>
+            <div className='bg-blue-600 p-5 w-full rounded-lg flex flex-col justify-items-start break-words'>
                 <span className='font-bold text-lg'>Your Link ~ </span><code><Link target="_blank" href={generated}>{generated}</Link></code>
                 </div>
                 </>}
