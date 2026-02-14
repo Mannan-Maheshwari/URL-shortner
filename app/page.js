@@ -4,9 +4,9 @@ import Link from "next/link";
 
 const Home = () => {
   return (
-    <div className=" bg-gradient-to-bl from-[#0f172a] via-[#1e1a78] to-[#0f172a] min-h-screen flex flex-col mt-15">
-      <div className="flex justify-around">
-        <div className="flex flex-col justify-around items-start">
+    <div className="min-h-0 flex flex-col mt-15 pb-10">
+      <div className="flex justify-around items-start flex-wrap gap-6">
+        <div className="flex flex-col justify-start items-start flex-1 min-w-0 max-w-2xl">
           <div className="text-3xl font-bold mt-10 m-2">
             Best Free URL Shortener: Track & Optimize Links
           </div>
